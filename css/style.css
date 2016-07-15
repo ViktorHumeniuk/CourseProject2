@@ -7,10 +7,21 @@
     color: #0e0e0e;
     font-weight: bold;
 }
-ul.nav.navbar-nav.languages li{
-    border-left: 1px solid grey;
+/*ul.nav.navbar-nav.languages li{*/
+    /*border-left: 1px solid grey;*/
 
+/*}*/
+/*ul.nav.navbar-nav.languages li:first-child{*/
+    /*border-left: none;*/
+/*}*/
+.navbar-brand img{
+    width: 140px;
+    height: 45px;
 }
-ul.nav.navbar-nav.languages li:first-child{
-    border-left: none;
+.languages li a{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.languages li a:first-child{
+    padding-left: 5px;
 }
